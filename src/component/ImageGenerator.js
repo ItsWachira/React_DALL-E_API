@@ -8,7 +8,7 @@ function ImageGenerator() {
     const [result, setResult] = useState("");
     const [loading, setLoading] = useState(false);
     const [placeholder, setPlaceholder] = useState(
-      "Search a lion with Paint Brushes paiting the monalisa paiting..."
+      "Search a lion with Paint Brushes painting the mona lisa painting..."
     );
     const configuration = new Configuration({
       apiKey: process.env.REACT_APP_OPENAI_API_KEY,
